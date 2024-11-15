@@ -1,0 +1,43 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/picaxe/microbot/protos/Microbot.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.2790721752550157 0.2847120277104951 0.9170920249764534 1.6372970703496386
+  position 0.25869267750397623 -0.6632574369074915 0.8711026610960693
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 4 4
+}
+Microbot {
+  hidden position_0_0 55.81572312110508
+  hidden position_0_1 -5.035911563952899
+  hidden linearVelocity_0 -1.4767521776431724e-14 -8.746270549434745e-16 -1.7118798878096986e-14
+  hidden angularVelocity_0 1.7211837213415098e-13 -4.852308422165943e-13 -8.909497970192871e-14
+  hidden translation_4 8.346612290210942e-11 -6.750155989720952e-14 -3.18078344323236e-08
+  hidden rotation_4 -0.24906886532500552 -0.9663995428818554 -0.06353443037798655 -8.881784197001252e-16
+  hidden linearVelocity_4 -1.54302744758636e-14 3.3119740484002336e-15 -4.16367875013629e-14
+  hidden angularVelocity_4 1.6898267376411074e-13 -4.865001364205739e-13 -8.905934172794849e-14
+  hidden translation_5 8.346617841326065e-11 -6.750155989720952e-14 -3.180783450171254e-08
+  hidden rotation_5 0.37258531033338943 0.9135995965709138 -0.16283723059925653 0
+  hidden linearVelocity_5 -1.0309575438996248e-14 4.953344412140834e-15 -4.2129854721773776e-14
+  hidden angularVelocity_5 1.684742120380033e-13 -4.706817429258006e-13 -8.91287618124357e-14
+  hidden rotation_7 0 -1 0 5.550240663668388
+  hidden linearVelocity_7 -1.1676285522640988e-14 1.4106831281083207e-14 -4.941649554404975e-16
+  hidden angularVelocity_7 -1.910873149810426e-12 -1.3849631022443512e-12 -7.89590054028661e-14
+  hidden rotation_8 0 1 0 5.035911563952899
+  hidden linearVelocity_8 -2.246511648415808e-15 -4.169641575370736e-15 -2.6322945980523458e-15
+  hidden angularVelocity_8 9.571561069425845e-13 1.374746943155176e-14 -7.290868968483433e-14
+  translation 0.2973522523922277 0.4187121801250656 0.021503228886926774
+  rotation 0.001312220898389112 0.00022896962888907952 -0.9999991128242179 2.7944737958202475
+  controller "keyboardcontrol"
+}
